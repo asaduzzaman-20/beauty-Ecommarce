@@ -17,7 +17,7 @@ const Beautycard = ({ title, imageUrl }) => {
                 {/* Card Grid */}
                 <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10 sm:content-center">
                     {/* Single Card */}
-                    {[MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11].map((item, index) => (
+                    {[MyImage11, MyImage11, MyImage11, MyImage11, MyImage11, MyImage11,MyImage11, MyImage11].map((item, index) => (
                         <div
                             key={index}
                             className="relative   overflow-hidden"

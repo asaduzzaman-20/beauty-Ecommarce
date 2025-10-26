@@ -19,7 +19,7 @@ const Productcard = ({ title, imageUrl }) => {
         {/* Card Grid */}
         <div className=" max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-10 sm:content-center ">
           {/* Single Card */}
-          {[MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10,].map((item, index) => (
+          {[MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10, MyImage10].map((item, index) => (
             <div
               key={index}
               className="relative  rounded-t-full  rounded-b-2xl overflow-hidden "

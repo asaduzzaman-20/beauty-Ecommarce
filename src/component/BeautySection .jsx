@@ -9,7 +9,7 @@ import MyImage6 from '../assets/images/imageglo/6.png'; // Import the image file
 const BeautySection = () => {
     return (
         <div className="bg-gray-50 py-10 px-5">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
                 {/* First Card */}
                 <div className="relative bg-black text-white rounded-[40px] overflow-hidden lg:col-span-8 h-auto">
                     <img

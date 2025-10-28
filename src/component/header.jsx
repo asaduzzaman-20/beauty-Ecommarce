@@ -74,9 +74,9 @@ const Header = () => {
                     </div>
 
                     {/* Navigation Links */}
-                    <div className="icon lg:col-span-4 lg:flex lg:justify-end">
-                        <div className='text-white'>
-                            <span className='p-1'>icon</span>
+                    <div className="icon lg:col-span-4 lg:flex lg:justify-end hidden">
+                        <div className='text-white '>
+                            <span className='p-1 '>icon</span>
                             <span className='p-1'>icon</span>
                             <span className='p-1'>icon</span>
                         </div>
